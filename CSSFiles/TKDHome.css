@@ -60,6 +60,15 @@ nav a {
     overflow:hidden;
 }
 
+.hero2{
+    background: #b9aba52d;
+    color:#0e4171;
+    padding: 90px 24px 100px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
 .hero p.lead{
     font-size:1.5rem;color:#dce6ee;max-width:560px;margin:0 auto 34px;
   }
@@ -74,4 +83,41 @@ nav a {
     border-radius:4px;
     text-decoration:none;
     transition:background .3s ease-in-out,color .3s ease-in-out;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+
+.table th {
+  text-align: left;
+  padding: 14px 18px;
+  background: #0f2a44;
+  color: #f0b429;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #f0b429;
+}
+
+.table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e2e0da;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:nth-child(even) td {
+  background: #fff;
+}
+
+.table tr:hover td {
+  background: #f0f4f8;
 }
